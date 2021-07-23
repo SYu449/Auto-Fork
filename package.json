@@ -1,0 +1,25 @@
+{
+  "name": "auto_fork",
+  "version": "2.0.0",
+  "description": "Scans for github links and lets your fork from them",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SYu449/Auto-Fork.git"
+  },
+  "keywords": [
+    "fork"
+  ],
+  "author": "simon and konstantin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SYu449/Auto-Fork/issues"
+  },
+  "homepage": "https://github.com/SYu449/Auto-Fork#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}

@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener(function (message) {
         function makeList() {
             let list = '<h1>Links</h1><ul>';
                 for (let i=0; i < array.length; i++) {
-                    list += '<li>'+ array[i]+' <button>FORK</button></li> ';
+                    list += '<li id>'+ '<a href=\'https://youtu.be/dQw4w9WgXcQ\'>' + array[i] + '</a><button on>FORK</button><button>CLONE</button></li> ';
                 };
                 list += '</ul>'
                 const w = window.open("");
